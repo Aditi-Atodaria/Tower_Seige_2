@@ -25,7 +25,7 @@ class Polygon{
         //ellipseMode(RADIUS);
         //ellipse(0,0,30,30);
        imageMode(CENTER);
-        image(this.image, this.body.position.x,this.body.position.y,50,50);
+        image(this.image,0,0,50,50);
         pop();
         
     }
