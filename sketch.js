@@ -66,7 +66,7 @@ function setup(){
     ground1 = new Ground(820,270,230,10);
     ground3 = new Ground(width/2,400,width,10);
 
-    poly = new Polygon(20,120);
+    poly = new Polygon(100,120);
     slingshot = new SlingShot(poly.body,{x:100, y:100});
 	
 }
